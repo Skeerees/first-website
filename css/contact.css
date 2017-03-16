@@ -1,0 +1,42 @@
+body{
+    margin:0;
+}
+.main-nav{
+    margin-top: 0;
+    height: 60px;
+    width: 100vw;
+    position: fixed;
+    border-bottom: solid #000;
+    background-color: #ffbff7;
+    background-image: url("https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSo92sGzAxzkwanhJSP3S811TUrWnbTK_Fa4kGOs4JWUSlAHeeE0g")
+}
+.container{
+    max-width: 80%;
+    margin:0 auto;
+}
+.logo{
+    height: 60px;
+}
+.nav-list{
+    float: right;
+    list-style: none;
+}
+.nav-item{
+    float: left;
+    margin-left: 15px;
+    font-family: "Avant Garde", Avantgarde, sans-serif;
+    font-weight: bold;
+    
+}
+.nav-link{
+    text-decoration: none;
+    color: #d170ff;
+}
+.nav-link:hover{
+    color: #0b1326;
+    border-bottom: double;
+}
+.con{
+    padding-top: 60px;
+    margin-top: 0;
+}
